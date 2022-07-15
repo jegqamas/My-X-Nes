@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Background.bmp</Source>
+      <Name>Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\Background.xnb</Output>
+      <Time>2010-12-09T19:43:04+02:00</Time>
+    </Item>
+    <Item>
+      <Source>frame.bmp</Source>
+      <Name>frame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\frame.xnb</Output>
+      <Time>2010-12-09T19:50:26+02:00</Time>
+    </Item>
+    <Item>
+      <Source>banner.jpg</Source>
+      <Name>banner</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\banner.xnb</Output>
+      <Time>2010-12-09T19:50:48+02:00</Time>
+    </Item>
+    <Item>
+      <Source>bannerback.jpg</Source>
+      <Name>bannerback</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\bannerback.xnb</Output>
+      <Time>2010-12-09T19:59:58+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Title.png</Source>
+      <Name>Title</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\Title.xnb</Output>
+      <Time>2010-12-10T10:46:30+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Font_big.spritefont</Source>
+      <Name>Font_big</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\Font_big.xnb</Output>
+      <Time>2010-12-09T20:35:26+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Font_normal.spritefont</Source>
+      <Name>Font_normal</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\Font_normal.xnb</Output>
+      <Time>2010-12-09T20:52:14+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Font_small.spritefont</Source>
+      <Name>Font_small</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\Font_small.xnb</Output>
+      <Time>2010-12-09T20:09:14+02:00</Time>
+    </Item>
+    <Item>
+      <Source>FontNormalSmall.spritefont</Source>
+      <Name>FontNormalSmall</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\FontNormalSmall.xnb</Output>
+      <Time>2010-12-26T20:25:58+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNesContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNesContent\obj\Xbox 360\Release\</IntermediateDirectory>
+      <OutputDirectory>E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNes\bin\Xbox 360\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-08-31T14:00:36.7782737+03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

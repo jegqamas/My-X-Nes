@@ -1,0 +1,3 @@
+G:\Programming\AHD PROGRAMS\My X Nes\2.xxx\MyXNes src\MyXNes\MyXNesContent\obj\x86\Release\ResolveAssemblyReference.cache
+G:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNesContent\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Programming\AHD PROGRAMS\My X Nes\MyXNes src\MyXNes\MyXNesContent\obj\x86\Release\ResolveAssemblyReference.cache

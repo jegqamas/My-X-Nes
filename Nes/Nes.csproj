@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A32D38EC-AACF-402E-BC4B-B02174B22581}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyNes.Nes</RootNamespace>
+    <AssemblyName>Nes</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile1</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APU\ChannelDpm.cs" />
+    <Compile Include="APU\ChannelNoi.cs" />
+    <Compile Include="APU\ChannelSqr.cs" />
+    <Compile Include="APU\ChannelTri.cs" />
+    <Compile Include="APU\MMC5\ChannelMmc5Pcm.cs" />
+    <Compile Include="APU\MMC5\ChannelMmc5Sqr.cs" />
+    <Compile Include="APU\MMC5\Mmc5ExternalComponent.cs" />
+    <Compile Include="APU\NesApu.cs" />
+    <Compile Include="APU\NesApuChannel.cs" />
+    <Compile Include="APU\NesApuDuration.cs" />
+    <Compile Include="APU\NesApuEnvelope.cs" />
+    <Compile Include="APU\NesApuExternalComponent.cs" />
+    <Compile Include="APU\NesApuMixer.cs" />
+    <Compile Include="APU\SS5B\ChannelSS5BWave.cs" />
+    <Compile Include="APU\SS5B\SS5BExternalUnit.cs" />
+    <Compile Include="APU\VRC6\ChannelVrc6Saw.cs" />
+    <Compile Include="APU\VRC6\ChannelVrc6Sqr.cs" />
+    <Compile Include="APU\VRC6\Vrc6ExternalComponent.cs" />
+    <Compile Include="CPU\CPU.cs" />
+    <Compile Include="Debuggers\CONSOLE.cs" />
+    <Compile Include="Input\IInputManager.cs" />
+    <Compile Include="Input\IJoypad.cs" />
+    <Compile Include="Input\ITimer.cs" />
+    <Compile Include="Memory\Cartridge.cs" />
+    <Compile Include="Memory\CPUMemory.cs" />
+    <Compile Include="Memory\Mappers\IMapper.cs" />
+    <Compile Include="Memory\Mappers\Mapper000.cs" />
+    <Compile Include="Memory\Mappers\Mapper001.cs" />
+    <Compile Include="Memory\Mappers\Mapper002.cs" />
+    <Compile Include="Memory\Mappers\Mapper003.cs" />
+    <Compile Include="Memory\Mappers\Mapper004.cs" />
+    <Compile Include="Memory\Mappers\Mapper005.cs" />
+    <Compile Include="Memory\Mappers\Mapper006.cs" />
+    <Compile Include="Memory\Mappers\Mapper007.cs" />
+    <Compile Include="Memory\Mappers\Mapper008.cs" />
+    <Compile Include="Memory\Mappers\Mapper009.cs" />
+    <Compile Include="Memory\Mappers\Mapper010.cs" />
+    <Compile Include="Memory\Mappers\Mapper011.cs" />
+    <Compile Include="Memory\Mappers\Mapper012.cs" />
+    <Compile Include="Memory\Mappers\Mapper013.cs" />
+    <Compile Include="Memory\Mappers\Mapper015.cs" />
+    <Compile Include="Memory\Mappers\Mapper016.cs" />
+    <Compile Include="Memory\Mappers\Mapper017.cs" />
+    <Compile Include="Memory\Mappers\Mapper018.cs" />
+    <Compile Include="Memory\Mappers\Mapper019.cs" />
+    <Compile Include="Memory\Mappers\Mapper021.cs" />
+    <Compile Include="Memory\Mappers\Mapper022.cs" />
+    <Compile Include="Memory\Mappers\Mapper023.cs" />
+    <Compile Include="Memory\Mappers\Mapper024.cs" />
+    <Compile Include="Memory\Mappers\Mapper025.cs" />
+    <Compile Include="Memory\Mappers\Mapper026.cs" />
+    <Compile Include="Memory\Mappers\Mapper032.cs" />
+    <Compile Include="Memory\Mappers\Mapper033.cs" />
+    <Compile Include="Memory\Mappers\Mapper034.cs" />
+    <Compile Include="Memory\Mappers\Mapper040.cs" />
+    <Compile Include="Memory\Mappers\Mapper041.cs" />
+    <Compile Include="Memory\Mappers\Mapper042.cs" />
+    <Compile Include="Memory\Mappers\Mapper043.cs" />
+    <Compile Include="Memory\Mappers\Mapper044.cs" />
+    <Compile Include="Memory\Mappers\Mapper045.cs" />
+    <Compile Include="Memory\Mappers\Mapper046.cs" />
+    <Compile Include="Memory\Mappers\Mapper047.cs" />
+    <Compile Include="Memory\Mappers\Mapper049.cs" />
+    <Compile Include="Memory\Mappers\Mapper050.cs" />
+    <Compile Include="Memory\Mappers\Mapper051.cs" />
+    <Compile Include="Memory\Mappers\Mapper057.cs" />
+    <Compile Include="Memory\Mappers\Mapper058.cs" />
+    <Compile Include="Memory\Mappers\Mapper060.cs" />
+    <Compile Include="Memory\Mappers\Mapper061.cs" />
+    <Compile Include="Memory\Mappers\Mapper062.cs" />
+    <Compile Include="Memory\Mappers\Mapper064.cs" />
+    <Compile Include="Memory\Mappers\Mapper065.cs" />
+    <Compile Include="Memory\Mappers\Mapper066.cs" />
+    <Compile Include="Memory\Mappers\Mapper067.cs" />
+    <Compile Include="Memory\Mappers\Mapper068.cs" />
+    <Compile Include="Memory\Mappers\Mapper069.cs" />
+    <Compile Include="Memory\Mappers\Mapper070.cs" />
+    <Compile Include="Memory\Mappers\Mapper071.cs" />
+    <Compile Include="Memory\Mappers\Mapper072.cs" />
+    <Compile Include="Memory\Mappers\Mapper073.cs" />
+    <Compile Include="Memory\Mappers\Mapper074.cs" />
+    <Compile Include="Memory\Mappers\Mapper075.cs" />
+    <Compile Include="Memory\Mappers\Mapper076.cs" />
+    <Compile Include="Memory\Mappers\Mapper077.cs" />
+    <Compile Include="Memory\Mappers\Mapper078.cs" />
+    <Compile Include="Memory\Mappers\Mapper079.cs" />
+    <Compile Include="Memory\Mappers\Mapper080.cs" />
+    <Compile Include="Memory\Mappers\Mapper082.cs" />
+    <Compile Include="Memory\Mappers\Mapper083.cs" />
+    <Compile Include="Memory\Mappers\Mapper085.cs" />
+    <Compile Include="Memory\Mappers\Mapper086.cs" />
+    <Compile Include="Memory\Mappers\Mapper087.cs" />
+    <Compile Include="Memory\Mappers\Mapper088.cs" />
+    <Compile Include="Memory\Mappers\Mapper089.cs" />
+    <Compile Include="Memory\Mappers\Mapper090.cs" />
+    <Compile Include="Memory\Mappers\Mapper091.cs" />
+    <Compile Include="Memory\Mappers\Mapper092.cs" />
+    <Compile Include="Memory\Mappers\Mapper093.cs" />
+    <Compile Include="Memory\Mappers\Mapper094.cs" />
+    <Compile Include="Memory\Mappers\Mapper095.cs" />
+    <Compile Include="Memory\Mappers\Mapper097.cs" />
+    <Compile Include="Memory\Mappers\Mapper105.cs" />
+    <Compile Include="Memory\Mappers\Mapper112.cs" />
+    <Compile Include="Memory\Mappers\Mapper113.cs" />
+    <Compile Include="Memory\Mappers\Mapper114.cs" />
+    <Compile Include="Memory\Mappers\Mapper115.cs" />
+    <Compile Include="Memory\Mappers\Mapper117.cs" />
+    <Compile Include="Memory\Mappers\Mapper118.cs" />
+    <Compile Include="Memory\Mappers\Mapper119.cs" />
+    <Compile Include="Memory\Mappers\Mapper133.cs" />
+    <Compile Include="Memory\Mappers\Mapper140.cs" />
+    <Compile Include="Memory\Mappers\Mapper142.cs" />
+    <Compile Include="Memory\Mappers\Mapper180.cs" />
+    <Compile Include="Memory\Mappers\Mapper182.cs" />
+    <Compile Include="Memory\Mappers\Mapper184.cs" />
+    <Compile Include="Memory\Mappers\Mapper185.cs" />
+    <Compile Include="Memory\Mappers\Mapper187.cs" />
+    <Compile Include="Memory\Mappers\Mapper188.cs" />
+    <Compile Include="Memory\Mappers\Mapper189.cs" />
+    <Compile Include="Memory\Mappers\Mapper193.cs" />
+    <Compile Include="Memory\Mappers\Mapper200.cs" />
+    <Compile Include="Memory\Mappers\Mapper201.cs" />
+    <Compile Include="Memory\Mappers\Mapper202.cs" />
+    <Compile Include="Memory\Mappers\Mapper203.cs" />
+    <Compile Include="Memory\Mappers\Mapper204.cs" />
+    <Compile Include="Memory\Mappers\Mapper205.cs" />
+    <Compile Include="Memory\Mappers\Mapper212.cs" />
+    <Compile Include="Memory\Mappers\Mapper213.cs" />
+    <Compile Include="Memory\Mappers\Mapper225_255.cs" />
+    <Compile Include="Memory\Mappers\Mapper226.cs" />
+    <Compile Include="Memory\Mappers\Mapper228.cs" />
+    <Compile Include="Memory\Mappers\Mapper229.cs" />
+    <Compile Include="Memory\Mappers\Mapper230.cs" />
+    <Compile Include="Memory\Mappers\Mapper231.cs" />
+    <Compile Include="Memory\Mappers\Mapper232.cs" />
+    <Compile Include="Memory\Mappers\Mapper233.cs" />
+    <Compile Include="Memory\Mappers\Mapper240.cs" />
+    <Compile Include="Memory\Mappers\Mapper241.cs" />
+    <Compile Include="Memory\Mappers\Mapper242.cs" />
+    <Compile Include="Memory\Mappers\Mapper243.cs" />
+    <Compile Include="Memory\Mappers\Mapper244.cs" />
+    <Compile Include="Memory\Mappers\Mapper245.cs" />
+    <Compile Include="Memory\Mappers\Mapper246.cs" />
+    <Compile Include="Memory\Mappers\Mapper248.cs" />
+    <Compile Include="Memory\Mappers\Mapper249.cs" />
+    <Compile Include="Memory\Mappers\Mapper251.cs" />
+    <Compile Include="Memory\PPUMemory.cs" />
+    <Compile Include="NES.cs" />
+    <Compile Include="Output\Audio\IAudioDevice.cs" />
+    <Compile Include="Output\Audio\IWaveRecorder.cs" />
+    <Compile Include="Output\Video\IGraphicDevice.cs" />
+    <Compile Include="PPU\PaletteFormat.cs" />
+    <Compile Include="PPU\Paletter.cs" />
+    <Compile Include="PPU\PPU.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
